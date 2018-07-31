@@ -187,5 +187,18 @@ public class ParkingBoyTest {
 
 		parkingBoy.pick(card);
 	}
+	@Test
+	public void should_park_car_to_the_most_empty_lot(){
+		ParkingLot p1 = new ParkingLot("1", 2);
+		ParkingLot p2 = new ParkingLot("2", 4);
+		SmartParkingBoy smartParkingBoy = new SmartParkingBoy();
+		buildCompany(p1, p2, smartParkingBoy);
+		Car car = new Car("1");
+		smartParkingBoy.park(car);
+
+		assertEquals(1,p2.getParkingCarsNum());
+	}
+
+
 
 }

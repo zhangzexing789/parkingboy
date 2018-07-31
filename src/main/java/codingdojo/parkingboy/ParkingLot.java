@@ -3,7 +3,7 @@ package codingdojo.parkingboy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ParkingLot {
+public class ParkingLot implements Comparable<ParkingLot>{
 	private static final int MIN_PARKING_SPACE = 0;
 	private static final int MAX_PARKING_SPACE = 10000;
 	Integer parkingSpace;
@@ -59,5 +59,9 @@ public class ParkingLot {
 	}
 	public boolean isParkingLotFull() {
 		return parkedCars.size()==parkingSpace;
+	}
+
+	public int compareTo(ParkingLot o) {
+		return -(this.parkingSpace-this.getParkingCarsNum()) - (o.parkingSpace-o.getParkingCarsNum());
 	}
 }
