@@ -3,11 +3,7 @@ package codingdojo.parkingboy;
 public class Car {
 
 	private String carNo;
-
-	public String getCarNo() {
-		return carNo;
-	}
-
+	
 	public Car(String carNo) {
 		this.carNo = carNo;
 	}

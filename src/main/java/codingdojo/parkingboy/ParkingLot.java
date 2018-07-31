@@ -1,27 +1,19 @@
 package codingdojo.parkingboy;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ParkingLot {
 	private static final int MIN_PARKING_SPACE = 0;
 	private static final int MAX_PARKING_SPACE = 10000;
 	Integer parkingSpace;
 	String parkingName;
+	private HashMap<ParkingCard, Car> parkedCars = new HashMap<ParkingCard,Car>();
 
-	public ParkingLot(String name, Integer parkingSpace) {
+	public ParkingLot(String name, Integer parkingSpace) {	
 		checkParameter(name, parkingSpace);
 		this.parkingSpace = parkingSpace;
 		this.parkingName = name;
-	}
-
-	public void setParkingSpace(Integer parkingSpace) {
-		this.parkingSpace = parkingSpace;
-	}
-
-	public Integer getParkingSpace() {
-		return parkingSpace;
-	}
-
-	public String getParkingName(){
-		return parkingName;
 	}
 
 	private void checkParameter(String name, Integer parkingSpace) {
@@ -40,11 +32,32 @@ public class ParkingLot {
 		}
 	}
 
-	private boolean parkingSpaceIsValid(Integer parkingSpace) {
+	private boolean parkingSpaceIsValid(Integer parkingSpace) {		
 		return null==parkingSpace||parkingSpace <= MIN_PARKING_SPACE || parkingSpace >= MAX_PARKING_SPACE;
 	}
 
-	public void park(Car car) {
+	public Integer getParkingSpace() {
+		return parkingSpace;
+	}
 
+	public Integer getParkingCarsNum() {
+		return parkedCars.size();
+	}
+	
+	public ParkingCard park(Car car) {
+		if(parkedCars.containsValue(car)){
+			throw new CarDuplicationException();
+		}else{
+			ParkingCard card = new ParkingCard();
+			parkedCars.put(card, car);
+			return card;
+		}
+	}
+
+	public Car pick(ParkingCard card) {
+		return parkedCars.remove(card);
+	}
+	public boolean isParkingLotFull() {
+		return parkedCars.size()==parkingSpace;
 	}
 }

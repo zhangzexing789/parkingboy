@@ -1,32 +1,37 @@
 package codingdojo.parkingboy;
 
+import java.util.List;
+
 public class ParkingBoy {
 	
-	private Car car;
-	private Company company;
-
-	public void goToWork(Company company){
-		this.company = company;
-	}
+	private List<ParkingLot> parkingLots;
+	
 	public ParkingCard park(Car car) {
-		this.car = car;
-		ParkingCard parkingCard = new ParkingCard(car.getCarNo(),confirmParkingSpace().getParkingName());
-		return parkingCard;
+		return getFirstParkingLotIsNotFull().park(car);
+	}
+
+	private ParkingLot getFirstParkingLotIsNotFull() {
+		for (ParkingLot parkingLot : parkingLots) {
+			if(!parkingLot.isParkingLotFull()) {
+				return parkingLot;
+			}
+		}
+		throw new ParkingLotFullException();
 	}
 
 	public Car pick(ParkingCard card) {
-		if(!(card.getCarNo().equals(car.getCarNo())&card.getParkingName().equals(confirmParkingSpace().getParkingName()))){
-			throw new CarIsNotFoundException();
-		}
-		return car;
-	}
-
-	public ParkingLot confirmParkingSpace() {
-		for(ParkingLot parkingLot : company.getParkingLots()){
-			if (parkingLot.parkingSpace != 0){
-				return  parkingLot;
+		Car car = null;
+		for(ParkingLot lot: parkingLots) {
+			car = lot.pick(card);
+			if(car != null) {
+				return car;
 			}
 		}
-		throw new ParkingLotIsFullException();
+		throw new ParkingCarIsNotFoundException();
 	}
+
+	void setParkingLots(List<ParkingLot> parkingLots) {
+		this.parkingLots = parkingLots;
+	}
+	
 }

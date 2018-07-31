@@ -1,9 +1,8 @@
 package codingdojo.parkingboy;
 
-import org.junit.Test;
+import static org.junit.Assert.*;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotSame;
+import org.junit.Test;
 
 public class CarTest {
 
@@ -20,7 +19,7 @@ public class CarTest {
 	public void should_be_return_false_with_diff_car() {
 		Car c1 = new Car("1");
 		Car c2 = new Car("2");
-
+		
 		assertNotSame(c1,c2);
 		assertNotSame(c1.hashCode(),c2.hashCode());
 	}

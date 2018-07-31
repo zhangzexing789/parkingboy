@@ -5,10 +5,6 @@ import java.util.List;
 
 public class Company {
 
-	public List<ParkingLot> getParkingLots() {
-		return parkingLots;
-	}
-
 	private List<ParkingLot> parkingLots = new LinkedList<ParkingLot>();
 	
 	public Integer getParkingLotSize() {
@@ -25,7 +21,7 @@ public class Company {
 	}
 
 	public void employ(ParkingBoy parkingBoy) {
-
+		parkingBoy.setParkingLots(parkingLots);
 	}
 
 }
