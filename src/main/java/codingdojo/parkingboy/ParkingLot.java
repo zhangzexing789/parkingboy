@@ -62,6 +62,6 @@ public class ParkingLot implements Comparable<ParkingLot>{
 	}
 
 	public int compareTo(ParkingLot o) {
-		return -(this.parkingSpace-this.getParkingCarsNum()) - (o.parkingSpace-o.getParkingCarsNum());
+		return (o.parkingSpace-o.getParkingCarsNum())-(this.parkingSpace-this.getParkingCarsNum());
 	}
 }

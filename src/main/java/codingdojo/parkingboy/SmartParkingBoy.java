@@ -3,16 +3,12 @@ package codingdojo.parkingboy;
 import java.util.Collections;
 import java.util.List;
 
-public class SmartParkingBoy extends ParkingBoy{
+public class SmartParkingBoy extends ParkingBoy {
 
     private List<ParkingLot> parkingLots;
 
-    public SmartParkingBoy() {
-        super();
-    }
-
-    @Override
-    void setParkingLots(List<ParkingLot> parkingLots) {
+    public void setParkingLots(List<ParkingLot> parkingLots) {
+        super.setParkingLots(parkingLots);
         this.parkingLots = parkingLots;
     }
 
