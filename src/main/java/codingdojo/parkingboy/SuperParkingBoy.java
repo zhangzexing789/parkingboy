@@ -2,7 +2,7 @@ package codingdojo.parkingboy;
 
 import java.util.List;
 
-public class SmartParkingBoy extends ParkingBoy {
+public class SuperParkingBoy extends ParkingBoy{
 
     private List<ParkingLot> parkingLots;
 
@@ -11,7 +11,12 @@ public class SmartParkingBoy extends ParkingBoy {
         this.parkingLots = parkingLots;
     }
 
-    private ParkingLot findTheMostRemainSpaceLot(){
+    public ParkingCard park(Car car) {
+
+        return this.findHightVacancyRateParkingLot().park(car);
+    }
+
+    private ParkingLot findHightVacancyRateParkingLot(){
         ParkingLot compareLot = parkingLots.get(0);
         for (ParkingLot parkingLot : parkingLots) {
             if(!parkingLot.isParkingLotFull() && parkingLot != compareLot) {
@@ -24,15 +29,10 @@ public class SmartParkingBoy extends ParkingBoy {
         throw new ParkingLotFullException();
     }
 
-    @Override
-    public ParkingCard park(Car car) {
-        return this.findTheMostRemainSpaceLot().park(car);
-    }
-
     private ParkingLot compareToParkingLot(ParkingLot p1, ParkingLot p2){
-        if(p1.getParkingLotRemainSpace() > p2.getParkingLotRemainSpace()){
+        if(p1.getParkingLotSpaceVacancyRate() > p2.getParkingLotSpaceVacancyRate()){
             return p1;
-        }else if(p1.getParkingLotRemainSpace() < p2.getParkingLotRemainSpace()){
+        }else if(p1.getParkingLotSpaceVacancyRate() < p2.getParkingLotSpaceVacancyRate()){
             return p2;
         }else{
             return p1;

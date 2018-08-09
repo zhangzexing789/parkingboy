@@ -1,5 +1,6 @@
 package codingdojo.parkingboy;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -63,5 +64,13 @@ public class ParkingLot implements Comparable<ParkingLot>{
 
 	public int compareTo(ParkingLot o) {
 		return (o.parkingSpace-o.getParkingCarsNum())-(this.parkingSpace-this.getParkingCarsNum());
+	}
+
+	public int getParkingLotRemainSpace() {
+		return this.parkingSpace - this.getParkingCarsNum();
+	}
+
+	public double getParkingLotSpaceVacancyRate(){
+			return new BigDecimal((float) this.getParkingLotRemainSpace() / this.parkingSpace).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
 	}
 }
