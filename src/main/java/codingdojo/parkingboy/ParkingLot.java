@@ -2,19 +2,26 @@ package codingdojo.parkingboy;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.Map;
 
 public class ParkingLot implements Comparable<ParkingLot>{
 	private static final int MIN_PARKING_SPACE = 0;
 	private static final int MAX_PARKING_SPACE = 10000;
-	Integer parkingSpace;
+	private Integer parkingSpace;
 	String parkingName;
 	private HashMap<ParkingCard, Car> parkedCars = new HashMap<ParkingCard,Car>();
 
-	public ParkingLot(String name, Integer parkingSpace) {	
+	public ParkingLot(String name, Integer parkingSpace) {
 		checkParameter(name, parkingSpace);
 		this.parkingSpace = parkingSpace;
 		this.parkingName = name;
+	}
+
+	public Integer getParkingSpace() {
+		return parkingSpace;
+	}
+
+	public Integer getParkingCarsNum() {
+		return parkedCars.size();
 	}
 
 	private void checkParameter(String name, Integer parkingSpace) {
@@ -35,14 +42,6 @@ public class ParkingLot implements Comparable<ParkingLot>{
 
 	private boolean parkingSpaceIsValid(Integer parkingSpace) {		
 		return null==parkingSpace||parkingSpace <= MIN_PARKING_SPACE || parkingSpace >= MAX_PARKING_SPACE;
-	}
-
-	public Integer getParkingSpace() {
-		return parkingSpace;
-	}
-
-	public Integer getParkingCarsNum() {
-		return parkedCars.size();
 	}
 	
 	public ParkingCard park(Car car) {
