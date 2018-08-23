@@ -120,11 +120,7 @@ public class SuperParkingBoyTest extends NormalParkingBoyTest {
     }
 
     private void buildCompany(SuperParkingBoy superParkingBoy, List<ParkingLot> lots) {
-        Company company = new Company();
-        for(ParkingLot parkingLot : lots){
-            company.add(parkingLot);
-        }
-        company.employ(superParkingBoy);
+        super.buildCompany(superParkingBoy,lots);
     }
 }
 

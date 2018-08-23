@@ -111,11 +111,7 @@ public class SmartParkingBoyTest extends NormalParkingBoyTest{
         super.should_throw_car_is_not_found_exception_when_the_parking_card_is_not_matched_to_any_car();
     }
 
-    private void buildCompany(SmartParkingBoy smartParkingBoy, List<ParkingLot> lots) {
-        Company company = new Company();
-        for(ParkingLot parkingLot : lots){
-            company.add(parkingLot);
-        }
-        company.employ(smartParkingBoy);
+    public void buildCompany(SmartParkingBoy smartParkingBoy, List<ParkingLot> lots) {
+        super.buildCompany(smartParkingBoy,lots);
     }
 }

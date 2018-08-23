@@ -7,8 +7,17 @@ public class ParkingLot implements Comparable<ParkingLot>{
 	private static final int MIN_PARKING_SPACE = 0;
 	private static final int MAX_PARKING_SPACE = 10000;
 	private Integer parkingSpace;
+	private ParkingBoy parkingBoy;
 	String parkingName;
 	private HashMap<ParkingCard, Car> parkedCars = new HashMap<ParkingCard,Car>();
+
+	public ParkingBoy getParkingBoy() {
+		return parkingBoy;
+	}
+
+	public void setParkingBoy(ParkingBoy parkingBoy) {
+		this.parkingBoy = parkingBoy;
+	}
 
 	public ParkingLot(String name, Integer parkingSpace) {
 		checkParameter(name, parkingSpace);

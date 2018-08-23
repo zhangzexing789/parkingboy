@@ -20,8 +20,8 @@ public class Company {
 		parkingLots.add(parkingLot);
 	}
 
-	public void employ(ParkingBoy parkingBoy) {
-		parkingBoy.setParkingLots(parkingLots);
+	public void employ(Employee employee) {
+		employee.setParkingLots(parkingLots);
 	}
 
 }

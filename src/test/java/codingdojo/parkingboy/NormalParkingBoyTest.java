@@ -4,6 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class NormalParkingBoyTest {
 
 	@Test
@@ -11,7 +14,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		
 		normalParkingBoy.park(new Car("1"));
 	}
@@ -21,7 +24,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		ParkingCard card1 = normalParkingBoy.park(car);
 		
@@ -36,7 +39,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		
 		ParkingCard card1 = normalParkingBoy.park(car);
@@ -49,7 +52,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");
@@ -60,20 +63,13 @@ public class NormalParkingBoyTest {
 		
 		assertEquals(new Integer(1),p2.getParkingCarsNum());
 	}
-
-	private void buildCompany(ParkingLot p1, ParkingLot p2, NormalParkingBoy normalParkingBoy) {
-		Company company = new Company();
-		company.add(p1);
-		company.add(p2);
-		company.employ(normalParkingBoy);
-	}
 	
 	@Test(expected = CarDuplicationException.class)
 	public void should_throw_car_duplicate_exception_when_try_to_park_the_same_car_twice(){
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car1 = new Car("1");
 		Car car2 = new Car("1");
 
@@ -88,7 +84,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");
@@ -107,7 +103,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car1 = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");
@@ -127,7 +123,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");
@@ -145,7 +141,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");		
@@ -162,7 +158,7 @@ public class NormalParkingBoyTest {
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		Car car2 = new Car("2");
 		Car car3 = new Car("3");
@@ -174,17 +170,25 @@ public class NormalParkingBoyTest {
 		Car carPicked = normalParkingBoy.pick(card3);
 		assertEquals(car3, carPicked);
 	}
-	//should throw car is not found exception when the parking card is not matched to any car
 	@Test(expected = ParkingCarIsNotFoundException.class)
 	public void should_throw_car_is_not_found_exception_when_the_parking_card_is_not_matched_to_any_car(){
 		ParkingLot p1 = new ParkingLot("1", 2);
 		ParkingLot p2 = new ParkingLot("2", 2);
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
-		buildCompany(p1, p2, normalParkingBoy);
+		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
 		normalParkingBoy.park(car);
 		ParkingCard card = new ParkingCard();
 
 		normalParkingBoy.pick(card);
+	}
+
+	public Company buildCompany(Employee employee, List<ParkingLot> lots) {
+		Company company = new Company();
+		for(ParkingLot parkingLot : lots){
+			company.add(parkingLot);
+		}
+		company.employ(employee);
+		return company;
 	}
 }
