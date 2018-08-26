@@ -2,6 +2,9 @@ package codingdojo.parkingboy;
 
 import static org.junit.Assert.*;
 
+import codingdojo.parkingboy.exceotion.CarDuplicationException;
+import codingdojo.parkingboy.exceotion.ParkingCarIsNotFoundException;
+import codingdojo.parkingboy.exceotion.ParkingLotFullException;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -177,18 +180,19 @@ public class NormalParkingBoyTest {
 		NormalParkingBoy normalParkingBoy = new NormalParkingBoy();
 		buildCompany(normalParkingBoy, Arrays.asList(p1,p2));
 		Car car = new Car("1");
-		normalParkingBoy.park(car);
-		ParkingCard card = new ParkingCard();
+		ParkingCard parkingCard = normalParkingBoy.park(car);
+		ParkingCard card = new ParkingCard(parkingCard.getParkingLot());
 
 		normalParkingBoy.pick(card);
 	}
 
-	public Company buildCompany(Employee employee, List<ParkingLot> lots) {
+	public Company buildCompany(ParkingBoy boy, List<ParkingLot> lots) {
 		Company company = new Company();
 		for(ParkingLot parkingLot : lots){
 			company.add(parkingLot);
 		}
-		company.employ(employee);
+		company.employ(boy);
+		company.registerBoyToLot(boy,lots);
 		return company;
 	}
 }

@@ -1,16 +1,22 @@
 package codingdojo.parkingboy;
 
+import codingdojo.parkingboy.exceotion.DuplicationAssignmentException;
+import codingdojo.parkingboy.exceotion.ParkingCarIsNotFoundException;
+import codingdojo.parkingboy.exceotion.ParkingLotFullException;
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
-public class Manager implements Employee{
+public class Manager extends ParkingBoy implements Employee{
 
-    private List<ParkingLot> lots;
+    private Company company;
 
-    public void setParkingLots(List<ParkingLot> parkingLots) {
-        this.lots = parkingLots;
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public Company getCompany() {
+        return company;
     }
 
     public void assign(ParkingBoy parkingBoy, List<ParkingLot> lots) {
@@ -27,19 +33,22 @@ public class Manager implements Employee{
 
     }
 
-    public void park(Car car) {
-        for (ParkingLot lot : lots){
+    public ParkingCard park(Car car) {
+        ParkingCard card = null;
+        for (ParkingLot lot : company.getParkingLots()){
             if (!lot.isParkingLotFull()){
-                lot.park(car);
+                card = lot.park(car);
+                return card;
             }else {
                 throw new ParkingLotFullException();
             }
         }
+        return card;
     }
 
     public Car pick(ParkingCard card) {
         Car car = null;
-        for(ParkingLot lot: lots) {
+        for(ParkingLot lot: company.getParkingLots()) {
             car = lot.pick(card);
             if(car != null) {
                 return car;

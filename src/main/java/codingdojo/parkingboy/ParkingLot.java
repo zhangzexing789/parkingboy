@@ -1,5 +1,10 @@
 package codingdojo.parkingboy;
 
+import codingdojo.parkingboy.exceotion.CarDuplicationException;
+import codingdojo.parkingboy.exceotion.ParkingLotNameIsNull;
+import codingdojo.parkingboy.exceotion.ParkingLotNameIsTooLong;
+import codingdojo.parkingboy.exceotion.ParkingLotSizeInvalid;
+
 import java.math.BigDecimal;
 import java.util.HashMap;
 
@@ -57,7 +62,7 @@ public class ParkingLot implements Comparable<ParkingLot>{
 		if(parkedCars.containsValue(car)){
 			throw new CarDuplicationException();
 		}else{
-			ParkingCard card = new ParkingCard();
+			ParkingCard card = new ParkingCard(this);
 			parkedCars.put(card, car);
 			return card;
 		}

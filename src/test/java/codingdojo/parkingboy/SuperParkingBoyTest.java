@@ -1,5 +1,8 @@
 package codingdojo.parkingboy;
 
+import codingdojo.parkingboy.exceotion.CarDuplicationException;
+import codingdojo.parkingboy.exceotion.ParkingCarIsNotFoundException;
+import codingdojo.parkingboy.exceotion.ParkingLotFullException;
 import org.junit.Test;
 
 import java.util.Arrays;

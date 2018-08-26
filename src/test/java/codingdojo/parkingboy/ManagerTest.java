@@ -1,9 +1,11 @@
 package codingdojo.parkingboy;
 
+import codingdojo.parkingboy.exceotion.DuplicationAssignmentException;
+import codingdojo.parkingboy.exceotion.ParkingLotFullException;
+import codingdojo.parkingboy.exceotion.PickCarWrongBoyException;
 import junit.framework.Assert;
 import org.junit.Test;
 
-import javax.smartcardio.Card;
 import java.util.Arrays;
 import java.util.List;
 
@@ -101,7 +103,8 @@ public class ManagerTest extends NormalParkingBoyTest{
         Car car1 = new Car("1");
 
         //when
-        manager.assign(superParkingBoy1,Arrays.asList(p1,p2));
+        manager.assign(superParkingBoy1,Arrays.asList(p1));
+        manager.assign(superParkingBoy2,Arrays.asList(p2));
         ParkingCard card = superParkingBoy1.park(car1);
         superParkingBoy2.pick(card);
 

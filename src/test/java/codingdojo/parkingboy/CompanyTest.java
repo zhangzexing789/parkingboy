@@ -2,6 +2,10 @@ package codingdojo.parkingboy;
 
 import static org.junit.Assert.*;
 
+import codingdojo.parkingboy.exceotion.ParkingLotNameDuplication;
+import codingdojo.parkingboy.exceotion.ParkingLotNameIsNull;
+import codingdojo.parkingboy.exceotion.ParkingLotNameIsTooLong;
+import codingdojo.parkingboy.exceotion.ParkingLotSizeInvalid;
 import org.junit.Test;
 
 public class CompanyTest {
