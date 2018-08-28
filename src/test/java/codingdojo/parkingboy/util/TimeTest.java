@@ -38,7 +38,7 @@ public class TimeTest {
         String result = timeConduct.calculate(num);
 
         //then
-        Assert.assertEquals("1 second",result);
+        Assert.assertEquals("1 second.",result);
     }
 //2 out 2 seconds
     @Test
@@ -51,7 +51,7 @@ public class TimeTest {
         String result = timeConduct.calculate(num);
 
         //then
-        Assert.assertEquals("2 seconds",result);
+        Assert.assertEquals("2 seconds.",result);
     }
 //60 out 1 min
     @Test

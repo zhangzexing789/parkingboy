@@ -1,49 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c9f4a76-d8a1-4395-97e8-3024666c99b6" name="Default" comment="2018-08-24 update">
+    <list default="true" id="8c9f4a76-d8a1-4395-97e8-3024666c99b6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/CarDuplicationException.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/CarDuplicationException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/DuplicationAssignmentException.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/DuplicationAssignmentException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Manager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/NormalParkingBoy.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/NormalParkingBoy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingBoy.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingBoy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingCarIsNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingCarIsNotFoundException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingCard.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLot.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLot.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLotFullException.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotFullException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLotNameDuplication.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotNameDuplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLotNameIsNull.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotNameIsNull.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLotNameIsTooLong.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotNameIsTooLong.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLotSizeInvalid.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotSizeInvalid.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/PickCarWrongBoyException.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/PickCarWrongBoyException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/CompanyTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/CompanyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/ManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/ManagerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/NormalParkingBoyTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/NormalParkingBoyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SuperParkingBoyTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SuperParkingBoyTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/CarDuplicationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java" afterPath="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java" afterPath="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/Company.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/Company.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/NormalParkingBoy.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/NormalParkingBoy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingBoy.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingBoy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingCarIsNotFoundException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingCard.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingCard.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLot.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLot.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLotFullException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLotNameDuplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLotNameIsNull.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLotNameIsTooLong.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/ParkingLotSizeInvalid.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/SmartParkingBoy.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/SmartParkingBoy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/SuperParkingBoy.class" afterPath="$PROJECT_DIR$/target/classes/codingdojo/parkingboy/SuperParkingBoy.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/CompanyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/CompanyTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/NormalParkingBoyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/NormalParkingBoyTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/SmartParkingBoyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/SmartParkingBoyTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/SuperParkingBoyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/codingdojo/parkingboy/SuperParkingBoyTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,92 +17,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Company.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java">
+      <file leaf-file-name="TimeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="1984">
+              <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeConduct.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Time.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/Time.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NormalParkingBoy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/NormalParkingBoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartParkingBoy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartParkingBoyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperParkingBoyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SuperParkingBoyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParkingLot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingLot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding>
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#2021#2022#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperParkingBoy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +73,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Throwable</find>
+      <find>System.out.println</find>
     </findStrings>
+    <replaceStrings>
+      <replace>return</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +89,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/ManagerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java" root0="SKIP_INSPECTION" />
   </component>
@@ -193,13 +113,14 @@
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/NotNatural.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/PickCarWrongBoyException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java" />
-        <option value="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/NormalParkingBoyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/Time.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java" />
       </list>
     </option>
   </component>
@@ -233,10 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,13 +194,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
-              <item name="exceotion" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parkingboy" type="b2602c69:ProjectViewProjectNode" />
               <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkingboy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkingboy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkingboy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parkingboy" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
@@ -292,6 +230,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +242,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TDD/parkingboy-master - Spark" />
-    <property name="SearchEverywhereHistoryKey" value="company&#9;FILE&#9;file://E:/aiatss/code/parkingboy/src/main/java/codingdojo/parkingboy/Company.java" />
+    <property name="SearchEverywhereHistoryKey" value="Date&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Date.java&#10;Calen&#9;PSI&#9;JAVA://java.util.Calendar&#10;company&#9;FILE&#9;file://E:/aiatss/code/parkingboy/src/main/java/codingdojo/parkingboy/Company.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -322,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuperParkingBoyTest">
+  <component name="RunManager" selected="JUnit.TimeTest.should_return_two_second_when_given_time_2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -343,56 +285,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="NormalParkingBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="codingdojo.parkingboy.exceotion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="parkingboy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="codingdojo.parkingboy" />
-      <option name="MAIN_CLASS_NAME" value="codingdojo.parkingboy.NormalParkingBoyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="NormalParkingBoyTest.should_pick_a_park_when_the_car_is_in_first_parking_lot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="codingdojo.parkingboy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="parkingboy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="codingdojo.parkingboy" />
-      <option name="MAIN_CLASS_NAME" value="codingdojo.parkingboy.NormalParkingBoyTest" />
-      <option name="METHOD_NAME" value="should_pick_a_park_when_the_car_is_in_first_parking_lot" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="SmartParkingBoyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -469,6 +361,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TimeTest.should_return_one_second_when_given_time_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.parkingboy.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="parkingboy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.parkingboy.util" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.parkingboy.util.TimeTest" />
+      <option name="METHOD_NAME" value="should_return_one_second_when_given_time_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TimeTest.should_return_two_second_when_given_time_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.parkingboy.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="parkingboy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.parkingboy.util" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.parkingboy.util.TimeTest" />
+      <option name="METHOD_NAME" value="should_return_two_second_when_given_time_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -530,19 +472,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NormalParkingBoyTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NormalParkingBoyTest.should_pick_a_park_when_the_car_is_in_first_parking_lot" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest.should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SuperParkingBoyTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest.should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SuperParkingBoyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TimeTest.should_return_one_second_when_given_time_1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TimeTest.should_return_two_second_when_given_time_2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SuperParkingBoyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest.should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NormalParkingBoyTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NormalParkingBoyTest.should_pick_a_park_when_the_car_is_in_first_parking_lot" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TimeTest.should_return_two_second_when_given_time_2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTest.should_return_one_second_when_given_time_1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SuperParkingBoyTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SmartParkingBoyTest.should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +507,10 @@
       <workItem from="1532533934077" duration="75000" />
       <workItem from="1535030808688" duration="12506000" />
       <workItem from="1535264205506" duration="1076000" />
-      <workItem from="1535297360424" duration="7000" />
+      <workItem from="1535297360424" duration="132000" />
+      <workItem from="1535372920322" duration="205000" />
+      <workItem from="1535373156450" duration="6995000" />
+      <workItem from="1535414982120" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="update smart and super parking boy">
       <created>1535030873870</created>
@@ -574,22 +519,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535030873870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2018-08-26 update">
+      <created>1535297439948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535297439949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NormalParkingBoyTest - 2018.08.25 at 14h 31m 02s.xml">
-      <configuration name="NormalParkingBoyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NormalParkingBoyTest - 2018.08.25 at 14h 39m 12s.xml">
-      <configuration name="NormalParkingBoyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NormalParkingBoyTest_should_park_when_parking_lot_is_empty - 2018.08.25 at 14h 00m 36s.xml">
-      <configuration name="NormalParkingBoyTest.should_park_when_parking_lot_is_empty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NormalParkingBoyTest_should_pick_a_park_when_the_car_is_in_first_parking_lot - 2018.08.25 at 14h 31m 15s.xml">
-      <configuration name="NormalParkingBoyTest.should_pick_a_park_when_the_car_is_in_first_parking_lot" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NormalParkingBoyTest_should_pick_a_park_when_the_car_is_in_first_parking_lot - 2018.08.25 at 14h 39m 08s.xml">
       <configuration name="NormalParkingBoyTest.should_pick_a_park_when_the_car_is_in_first_parking_lot" configurationId="JUnit" />
     </history-entry>
@@ -602,15 +542,27 @@
     <history-entry file="SmartParkingBoyTest - 2018.08.25 at 14h 56m 28s.xml">
       <configuration name="SmartParkingBoyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SmartParkingBoyTest - 2018.08.27 at 20h 30m 08s.xml">
+      <configuration name="SmartParkingBoyTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SmartParkingBoyTest_should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space - 2018.08.25 at 14h 56m 22s.xml">
       <configuration name="SmartParkingBoyTest.should_park_car_to_first_lot_when_it_is_the_most_empty_lot_even_others_have_space" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SuperParkingBoyTest - 2018.08.25 at 14h 56m 47s.xml">
       <configuration name="SuperParkingBoyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TimeTest_should_return_one_second_when_given_time_1 - 2018.08.27 at 21h 41m 37s.xml">
+      <configuration name="TimeTest.should_return_one_second_when_given_time_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_should_return_one_second_when_given_time_1 - 2018.08.27 at 21h 42m 16s.xml">
+      <configuration name="TimeTest.should_return_one_second_when_given_time_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_should_return_two_second_when_given_time_2 - 2018.08.27 at 21h 42m 22s.xml">
+      <configuration name="TimeTest.should_return_two_second_when_given_time_2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42504000" />
+    <option name="totallyTimeSpent" value="49834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +575,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -633,12 +584,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44988066" sideWeight="0.50215983" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20405728" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035799522" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04176611" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14416847" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15172786" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -674,7 +625,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32577565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -685,12 +636,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21599045" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04176611" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20405728" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14416847" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15172786" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -707,18 +658,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update smart and super parking boy" />
-    <option name="LAST_COMMIT_MESSAGE" value="update smart and super parking boy" />
+    <MESSAGE value="2018-08-26 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-08-26 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager>
@@ -728,38 +672,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/ParkingCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotNameIsTooLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/exceotion/ParkingLotSizeInvalid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -793,11 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,10 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,20 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/NormalParkingBoyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5568">
@@ -1012,38 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/NormalParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SuperParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,11 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,18 +926,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/NormalParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/SmartParkingBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/SmartParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="3391" column="17" lean-forward="false" selection-start-line="3391" selection-start-column="17" selection-end-line="3391" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="823" column="35" lean-forward="true" selection-start-line="823" selection-start-column="35" selection-end-line="823" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/util/calendar/CalendarDate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="158" column="15" lean-forward="false" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codingdojo/parkingboy/util/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1984">
+          <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codingdojo/parkingboy/util/TimeConduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
