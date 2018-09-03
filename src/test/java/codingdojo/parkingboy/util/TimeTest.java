@@ -64,7 +64,7 @@ public class TimeTest {
         String result = timeConduct.calculate(num);
 
         //then
-        Assert.assertEquals("1 min",result);
+        Assert.assertEquals("1 minute",result);
     }
 //61 out 1 min, 1 second
     @Test
