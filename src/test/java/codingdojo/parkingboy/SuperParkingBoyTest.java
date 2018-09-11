@@ -29,9 +29,9 @@ public class SuperParkingBoyTest extends NormalParkingBoyTest {
         superParkingBoy.park(car3);
         superParkingBoy.park(car4);
 
-        assertEquals(2,p1.getParkingCarsNum());
-        assertEquals(1,p2.getParkingCarsNum());
-        assertEquals(1,p3.getParkingCarsNum());
+        assertEquals(new Long(2),p1.getParkingCarsNum());
+        assertEquals(new Long(1),p2.getParkingCarsNum());
+        assertEquals(new Long(1),p3.getParkingCarsNum());
     }
 
     @Test
@@ -51,9 +51,9 @@ public class SuperParkingBoyTest extends NormalParkingBoyTest {
         superParkingBoy.park(car3);
         superParkingBoy.park(car4);
 
-        assertEquals(1,p1.getParkingCarsNum());
-        assertEquals(2,p2.getParkingCarsNum());
-        assertEquals(1,p3.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
+        assertEquals(new Long(2),p2.getParkingCarsNum());
+        assertEquals(new Long(1),p3.getParkingCarsNum());
     }
 
     @Test
@@ -73,9 +73,9 @@ public class SuperParkingBoyTest extends NormalParkingBoyTest {
         superParkingBoy.park(car3);
         superParkingBoy.park(car4);
 
-        assertEquals(1,p1.getParkingCarsNum());
-        assertEquals(1,p2.getParkingCarsNum());
-        assertEquals(2,p3.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
+        assertEquals(new Long(1),p2.getParkingCarsNum());
+        assertEquals(new Long(2),p3.getParkingCarsNum());
     }
 
     @Test
@@ -89,7 +89,7 @@ public class SuperParkingBoyTest extends NormalParkingBoyTest {
 
         superParkingBoy.park(car1);
 
-        assertEquals(1,p1.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
     }
 
     @Test

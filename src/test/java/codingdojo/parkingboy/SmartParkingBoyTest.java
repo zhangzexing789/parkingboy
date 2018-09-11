@@ -29,8 +29,8 @@ public class SmartParkingBoyTest extends NormalParkingBoyTest{
         smartParkingBoy.park(car3);
         smartParkingBoy.park(car4);
 
-        assertEquals(3,p1.getParkingCarsNum());
-        assertEquals(1,p3.getParkingCarsNum());
+        assertEquals(new Long(3),p1.getParkingCarsNum());
+        assertEquals(new Long(1),p3.getParkingCarsNum());
     }
 
     @Test
@@ -48,8 +48,8 @@ public class SmartParkingBoyTest extends NormalParkingBoyTest{
         smartParkingBoy.park(car2);
         smartParkingBoy.park(car3);
 
-        assertEquals(2,p2.getParkingCarsNum());
-        assertEquals(1,p1.getParkingCarsNum());
+        assertEquals(new Long(2),p2.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
     }
 
     @Test
@@ -67,8 +67,8 @@ public class SmartParkingBoyTest extends NormalParkingBoyTest{
         smartParkingBoy.park(car2);
         smartParkingBoy.park(car3);
 
-        assertEquals(2,p3.getParkingCarsNum());
-        assertEquals(1,p1.getParkingCarsNum());
+        assertEquals(new Long(2),p3.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
     }
 
     @Test
@@ -81,7 +81,7 @@ public class SmartParkingBoyTest extends NormalParkingBoyTest{
 
         smartParkingBoy.park(car1);
 
-        assertEquals(1,p1.getParkingCarsNum());
+        assertEquals(new Long(1),p1.getParkingCarsNum());
     }
 
     @Test
